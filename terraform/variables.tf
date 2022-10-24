@@ -7,13 +7,13 @@ variable "cloud_id" {
 variable "folder_id" {
   default = "" # удалить
 }
+variable "yc_reserved_ip" {
+  default = "178.154.205.217"
+}
 
 #Оставить
 variable "name_domain" {
   default = "devopsnetology.ru"
-}
-variable "yc_reserved_ip" {
-  default = "178.154.205.217"
 }
 variable "image_id" {
   type = string
